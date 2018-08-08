@@ -15,6 +15,11 @@ build:
   number: 0
   skip: true  # [win]
 
+requirements:
+  build:
+    - make
+    - {{ compiler('c') }}
+
 test:
   commands:
     - conda inspect linkages -p $PREFIX {{ name }}  # [not win]
