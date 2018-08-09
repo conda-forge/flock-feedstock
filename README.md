@@ -14,14 +14,16 @@ Summary: flock(1) locks files
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flock-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flock-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flock-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flock-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/flock-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/flock-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/flock-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/flock-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flock/badges/version.svg)](https://anaconda.org/conda-forge/flock)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flock/badges/downloads.svg)](https://anaconda.org/conda-forge/flock)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-flock-green.svg)](https://anaconda.org/conda-forge/flock) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flock.svg)](https://anaconda.org/conda-forge/flock) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flock.svg)](https://anaconda.org/conda-forge/flock) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flock.svg)](https://anaconda.org/conda-forge/flock) |
 
 Installing flock
 ================
