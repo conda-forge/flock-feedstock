@@ -1,6 +1,6 @@
 {% set name = "flock" %}
-{% set version = "0.2.3" %}
-{% set sha256 = "dd03557fc52fdf245d2c43ed214dc9e253e4ac0e97ad83dd4cc18d74c9e811a8" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "63cdc7dc44d5425ee7dd82757e62d9a6fc02313c2c1a6e699a6aa8239449e4ca" %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   skip: true  # [win]
 
 requirements:
@@ -32,7 +32,7 @@ about:
   home: https://github.com/discoteq/flock
   license: ISC
   license_file: LICENSE.md
-  summary: "flock(1) locks files"
+  summary: flock(1) locks files
 
   dev_url: https://github.com/discoteq/flock
 
