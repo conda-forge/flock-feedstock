@@ -7,7 +7,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: flock-{{ version }}.tar.gz
   url: https://github.com/discoteq/flock/releases/download/v{{ version }}/flock-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
@@ -19,6 +18,7 @@ requirements:
   build:
     - make
     - {{ compiler('c') }}
+    - {{ stdlib('c') }}
 
 test:
   commands:
